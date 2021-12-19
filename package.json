@@ -1,0 +1,14 @@
+{
+    "scripts": {
+        "start": "fastify start -w -l info -P server.js"
+    },
+    "dependencies": {
+        "faker": "^5.5.3",
+        "fastify": "^3.25.0",
+        "fastify-autoload": "^3.9.0",
+        "fastify-cli": "^2.14.0",
+        "fastify-cors": "^6.0.2",
+        "fastify-swagger": "^4.13.0"
+    },
+    "type": "module"
+}
